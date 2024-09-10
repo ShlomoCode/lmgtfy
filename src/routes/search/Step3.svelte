@@ -4,6 +4,6 @@
 </script>
 
 <div class={className}>
-	<h1 class="text-xl font-semibold">Come on…</h1>
-	<p>Was it really that hard?</p>
+	<h1 class="text-xl font-semibold">הנה זה מגיע...</h1>
+	<p>האם זה היה באמת קשה?</p>
 </div>

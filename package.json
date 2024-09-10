@@ -1,17 +1,17 @@
 {
-	"name": "@natoboram/lmgtfy",
+	"name": "@natoboram/Lmgtfy",
 	"version": "0.0.2",
-	"description": "A \"Let Me Google That For You\" clone that's open source and doesn't track you when you share it.",
+	"description": "A \"תן לי לגגל את זה בשבילך\" clone that's open source and doesn't track you when you share it.",
 	"keywords": [
 		"Google",
-		"LMGTFY"
+		"Lmgtfy"
 	],
-	"homepage": "https://github.com/NatoBoram/lmgtfy",
+	"homepage": "https://github.com/NatoBoram/Lmgtfy",
 	"bugs": {
-		"url": "https://github.com/NatoBoram/lmgtfy/issues"
+		"url": "https://github.com/NatoBoram/Lmgtfy/issues"
 	},
 	"license": "AGPL-3.0-or-later",
-	"repository": "github:NatoBoram/lmgtfy",
+	"repository": "github:NatoBoram/Lmgtfy",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -23,9 +23,9 @@
 		"lint": "prettier --check . && eslint .",
 		"lint:fix": "eslint --fix . && pnpm run format --list-different",
 		"format": "prettier --write .",
-		"docker:build": "docker build --secret id=BUILD_BASE --tag lmgtfy .",
-		"docker:run": "docker run --publish 127.0.0.1:3000:3000 lmgtfy",
-		"docker:kill": "docker ps --format '{{.Image}} {{.ID}}' | grep lmgtfy | awk '{print $2}' | xargs docker kill"
+		"docker:build": "docker build --secret id=BUILD_BASE --tag Lmgtfy .",
+		"docker:run": "docker run --publish 127.0.0.1:3000:3000 Lmgtfy",
+		"docker:kill": "docker ps --format '{{.Image}} {{.ID}}' | grep Lmgtfy | awk '{print $2}' | xargs docker kill"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.9.1",
